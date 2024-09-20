@@ -125,7 +125,7 @@ def hill_decrypt(cipher_text, key):
 class CipherApp:
     def __init__(self, master):
         self.master = master
-        self.master.title("Cipher Program")
+        self.master.title("Program Kriptografi Robert")
 
         self.cipher_var = tk.StringVar(value="Vigenere")
         self.input_text = tk.StringVar()
